@@ -47,7 +47,7 @@ programa {
     escreva("\nConceito: D")
     escreva("\nReprovado!")
   } 
-  se (media>=9) {
+  se (media<4) {
     escreva("\nNome do aluno: ",nome)
     escreva("\nPrimeira Nota: ",primeiroNota)
     escreva("\nSegunda Nota: ",segundaNota)
